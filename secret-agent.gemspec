@@ -7,6 +7,6 @@ Gem::Specification.new do |s|
   s.description = "User agent parser written in Ruby using regex patterns from the Open Podcast Analytics Working Group."
   s.authors     = ["Dan Benjamin"]
   s.email       = "dan@hivelogic.com"
-  s.files       = Dir["{lib, vendor}/**/*", "LICENSE", "README.md"]
+  s.files       = Dir["{lib,vendor}/**/*", "LICENSE", "README.md"]
   s.license       = "MIT"
 end
