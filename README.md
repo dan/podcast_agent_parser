@@ -16,6 +16,7 @@ agent_text = "iTunes/12.9.5 (Macintosh; OS X 10.14.5) AppleWebKit/607.2.6.1.1"
 sa = SecretAgent::Parser.new()
 
 parsed = sa.parse(agent_text)
+
 parsed.app #=> iTunes
 parsed.os #=> macOS
 parsed.device #=> PC
