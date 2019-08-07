@@ -17,8 +17,8 @@ sa = SecretAgent::Parser.new()
 
 parsed = sa.parse(agent_text)
 
-parsed.app # => iTunes
-parsed.os # => macOS
-parsed.device # => PC
-parsed.bot # => false
+parsed.app # iTunes
+parsed.os # macOS
+parsed.device # PC
+parsed.bot # false
 ```
