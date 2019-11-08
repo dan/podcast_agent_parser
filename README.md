@@ -5,7 +5,7 @@ Secret Agent is a user agent parser written in Ruby, using [regex patterns](http
 Installation:
 
 ```
-gem 'secret-agent', '~> 0.1.1'
+gem 'secret_agent', '~> 0.1.1'
 ```
 
 Then, look up your user agents like so:
