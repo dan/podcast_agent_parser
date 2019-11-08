@@ -1,10 +1,10 @@
 require 'json'
 
-module SecretAgent
+module PodcastAgentParser
 
   class Parser
     def initialize
-      @patterns_path = File.read(SecretAgent::DefaultPatternsPath)
+      @patterns_path = File.read(PodcastAgentParser::DefaultPatternsPath)
     end
 
     def parse(user_agent_string)

@@ -1,4 +1,4 @@
-module SecretAgent
+module PodcastAgentParser
 
   class Agent
     attr_accessor :app, :device, :os, :bot
