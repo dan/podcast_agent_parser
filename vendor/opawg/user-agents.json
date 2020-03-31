@@ -174,7 +174,6 @@
     {
         "user_agents": [
             "^Podcasts/.*\\(.*\\)",
-
             "^Balados/.*\\(.*\\)",
             "^Podcasti/.*\\(.*\\)",
             "^Podcastit/.*\\(.*\\)",
@@ -207,7 +206,6 @@
     {
         "user_agents": [
             "^Podcasts/.*\\d$",
-
             "^Balados/.*\\d$",
             "^Podcasti/.*\\d$",
             "^Podcastit/.*\\d$",
@@ -620,6 +618,7 @@
         ],
         "app": "Google Home",
         "device": "speaker",
+        "description": "Google Podcasts on smart speakers",
         "os": "google_assistant"
     },
     {
@@ -628,22 +627,29 @@
         ],
         "app": "Google Podcasts",
         "device": "speaker",
+        "description": "Google Podcasts on smart speakers",
         "os": "google_assistant"
     },
     {
         "user_agents": [
-            "iPhone;.*GSA/"
+            "iPhone;.*GSA/",
+            "^Podcasts$"
         ],
         "app": "Google Podcasts",
         "device": "phone",
+        "description": "Google Podcasts on iOS",
+        "developer_notes": "'Podcasts' is the iOS app, while *GSA/ is used in the Google app when searching and playing podcasts",
         "os": "ios"
     },
     {
         "user_agents": [
-            "iPad;.*GSA/"
+            "iPad;.*GSA/",
+            "^Podcasts$"
         ],
         "app": "Google Podcasts",
         "device": "tablet",
+        "description": "Google Podcasts on iOS",
+        "developer_notes": "'Podcasts' is the iOS app, while *GSA/ is used in the Google app when searching and playing podcasts",
         "os": "ios"
     },
     {
@@ -651,7 +657,12 @@
             "(?:Android;.+)?GSA/"
         ],
         "app": "Google Podcasts",
-        "os": "android"
+        "os": "android",
+        "description": "Google Podcasts on Android (the app or player)",
+        "examples": [
+          "Mozilla/5.0 (Linux; Android 10; Pixel 3a Build/QQ2A.200305.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.149 Mobile Safari/537.36 GSA/11.2.7.21.arm64"
+          ],
+        "developer_notes": "*GSA/ is used in the Google app when searching and playing podcasts, and in the Google Podcasts app"
     },
     {
         "user_agents": [
@@ -855,6 +866,28 @@
         "app": "Laughable",
         "device": "phone",
         "os": "ios"
+    },
+    {
+        "user_agents": [
+            "^lamarr-iOS"
+        ],
+        "app": "The Economist",
+        "device": "phone",
+        "os": "ios",
+        "examples": [
+            "lamarr-iOS-2.20.3-116"
+        ]
+    },
+    {
+        "user_agents": [
+            "^lamarr-android"
+        ],
+        "app": "The Economist",
+        "device": "phone",
+        "os": "android",
+        "examples": [
+            "lamarr-android-2.18.1-21810"
+        ]
     },
     {
         "user_agents": [
@@ -1171,10 +1204,14 @@
     {
         "user_agents": [
             "RadioPublic iOS",
-            "RadioPublic.+CFNetwork"
+            "RadioPublic.+CFNetwork",
+            "^RadioPublic/iOS"
         ],
         "app": "RadioPublic",
         "description": "RadioPublic’s free, easy to use podcast player makes listening to podcasts simple, enjoyable, and fun.",
+        "examples": [
+            "RadioPublic/iOS-2.0"
+        ],
         "info_url": "https://radiopublic.com/",
         "svg": "radiopublic.svg",
         "os": "ios"
@@ -1475,5 +1512,40 @@
             "stagefright/"
         ],
         "os": "android"
+    },
+    {
+        "user_agents": [
+            "^^com\\.evolve\\.podcast/"
+        ],
+        "app": "The Podcast App",
+        "device": "phone",
+        "examples": [
+            "com.evolve.podcast/3.10.1 (iPhone; ) (build 951, iOS 13.3)"
+        ],
+        "os": "ios"
+    },
+    {
+        "user_agents": [
+            "^Podimo/.*iOS"
+        ],
+        "app": "Podimo",
+        "device": "phone",
+        "os": "ios",
+        "examples": [
+            "Podimo/1.11.3 build 121/iOS 13.3"
+        ],
+        "info_url": "https://apps.apple.com/dk/app/podimo-a-world-of-podcasts/id1476538730"
+    },
+    {
+        "user_agents": [
+            "^Podimo/.*Android"
+        ],
+        "app": "Podimo",
+        "device": "phone",
+        "os": "android",
+        "examples": [
+            "Podimo/1.11.3 build 91/Android 28"
+        ],
+        "info_url": "https://play.google.com/store/apps/details?id=com.podimo&hl=en_US"
     }
 ]
