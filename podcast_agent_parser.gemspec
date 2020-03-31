@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = "podcast_agent_parser"
-  s.version     = "0.1.2"
-  s.date        = "2020-02-02"
+  s.version     = "0.1.3"
+  s.date        = "2020-03-31"
   s.homepage    = "https://github.com/dan/podcast_agent_parser"
   s.summary     = "User agent parser using the OPAWG regexes"
   s.description = "User agent parser written in Ruby using regex patterns from the Open Podcast Analytics Working Group."
