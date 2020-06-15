@@ -5,7 +5,7 @@ The Podcast Agent Parser is a user agent parser written in Ruby, using [regex pa
 Installation:
 
 ```
-gem 'podcast_agent_parser', '~> 0.1.3'
+gem 'podcast_agent_parser', '~> 0.1.4'
 ```
 
 Then, look up your user agents like so:
