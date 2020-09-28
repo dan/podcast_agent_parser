@@ -52,6 +52,41 @@
     },
     {
         "user_agents": [
+            "^AmazonMusic/\\..*iPhone"
+        ],
+        "examples": [
+            "AmazonMusic/9.15.2 iPhone7,2 CFNetwork/978.0.7 Darwin/18.7.0"
+        ],
+        "app": "Amazon Music Podcasts",
+        "description": "A music and podcasts streaming app",
+        "os": "ios",
+        "device": "phone",        
+        "svg": "amazon.svg"
+    },
+    {
+        "user_agents": [
+            "^AmazonMusic$"
+        ],
+        "examples": [
+            "AmazonMusic"
+        ],
+        "app": "Amazon Music Podcasts",
+        "description": "A music and podcasts streaming app",
+        "os": "android",
+        "developer_notes": "This appears to be the Android UA, by testing",
+        "svg": "amazon.svg"
+    },
+    {
+        "user_agents": [
+            "^Amazon Music Podcast"
+        ],
+        "app": "Amazon Music Podcasts",
+        "description": "A music and podcasts streaming app",
+        "developer_notes": "Seeing these once per episode, from an Oregon-based IP. Could be a bot or caching service?",
+        "svg": "amazon.svg"
+    },
+    {
+        "user_agents": [
             "^AlexaMediaPlayer/5\\."
         ],
         "app": "Amazon Echo Dot",
@@ -96,12 +131,13 @@
         "user_agents": [
             "^AppleCoreMedia/1\\..*iPod"
         ],
-        "app": "Apple Podcasts",
         "device": "mp3_player",
         "examples": [
             "AppleCoreMedia/1.0.0.16G114 (iPod touch; U; CPU OS 12_4_2 like Mac OS X; en_us)"
         ],
-        "os": "ios"
+        "os": "ios",
+        "description": "AppleCoreMedia library",
+        "developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"
     },
     {
         "user_agents": [
@@ -110,67 +146,67 @@
         "examples": [
             "AppleCoreMedia/1.0.0.19A583 (Macintosh; U; Intel Mac OS X 10_15; en_us)"
         ],
-        "app": "Apple Podcasts",
         "device": "pc",
         "os": "macos",
-        "description": "The Apple Podcasts app on MacOS Catalina and above",
-        "developer_notes": "Used when progressively downloading podcasts"
+        "description": "AppleCoreMedia library",
+        "developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"
     },
     {
         "user_agents": [
             "^AppleCoreMedia/1\\..*iPhone"
         ],
-        "app": "Apple Podcasts",
         "device": "phone",
         "examples": [
             "AppleCoreMedia/1.0.0.15G77 (iPhone; U; CPU OS 11_4_1 like Mac OS X; en_us)"
         ],
-        "os": "ios"
+        "os": "ios",
+        "description": "AppleCoreMedia library",
+        "developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"        
     },
     {
         "user_agents": [
             "^AppleCoreMedia/1\\..*iPad"
         ],
-        "app": "Apple Podcasts",
         "device": "tablet",
         "examples": [
             "AppleCoreMedia/1.0.0.17A860 (iPad; U; CPU OS 13_1_2 like Mac OS X; en_us)"
         ],
-        "os": "ios"
+        "os": "ios",
+        "description": "AppleCoreMedia library",
+        "developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"        
     },
     {
         "user_agents": [
             "^AppleCoreMedia/1\\..*HomePod"
         ],
-        "app": "Apple Podcasts",
         "device": "speaker",
         "examples": [
             "AppleCoreMedia/1.0.0.16G78 (HomePod; U; CPU OS 12_4 like Mac OS X; en_us)"
         ],
-        "os": "homepod_os"
+        "os": "homepod_os",
+        "description": "AppleCoreMedia library",
+        "developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"        
     },
     {
         "user_agents": [
             "^AppleCoreMedia/1\\..*Apple TV"
         ],
-        "app": "Apple Podcasts",
         "device": "tv",
         "examples": [
             "AppleCoreMedia/1.0.0.17J586 (Apple TV; U; CPU OS 13_0 like Mac OS X; en_us)"
         ],
-        "os": "tvos"
+        "os": "tvos",
+        "description": "AppleCoreMedia library",
+        "developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"
     },
     {
         "user_agents": [
-            "^AppleCoreMedia/1\\..*Apple Watch",
-            "watchOS/"
+            "^AppleCoreMedia/1\\..*Apple Watch"
         ],
-        "app": "Apple Podcasts",
         "device": "watch",
-        "examples": [
-            "atc/1.0 watchOS/6.0.1 model/Watch4,1 hwp/t8006 build/17R605 (6; dt:190)"
-        ],
-        "os": "watchos"
+        "os": "watchos",
+        "description": "AppleCoreMedia library",
+        "developer_notes": "This is a library used by a number of apps when progressively downloading podcasts. It is not (just) Apple Podcasts, and should not be treated as an Apple Podcasts useragent"
     },
     {
         "user_agents": [
@@ -183,7 +219,6 @@
             "^Podcast’ler/.*\\(.*\\)",
             "^Podkaster/.*\\(.*\\)",
             "^Podcaster/.*\\(.*\\)",
-            "^Podcast/.*\\(.*\\)",
             "^Podcastok/.*\\(.*\\)",
             "^Подкасти/.*\\(.*\\)",
             "^Подкасты/.*\\(.*\\)",
@@ -215,7 +250,6 @@
             "^Podcast’ler/.*\\d$",
             "^Podkaster/.*\\d$",
             "^Podcaster/.*\\d$",
-            "^Podcast/.*\\d$",
             "^Podcastok/.*\\d$",
             "^Подкасти/.*\\d$",
             "^Подкасты/.*\\d$",
@@ -231,8 +265,7 @@
         "description": "The Apple Podcasts app on devices other than MacOS Catalina and above",
         "developer_notes": "Used when downloading podcasts (not progressive downloads), with support for the following languages: Arabic, Chinese, Finnish, French, English, Hebrew, Hindi, Hungarian, Korean, Polish, Romanian, Russian, Serbian, Slovenian, Swedish, Thai, Turkish",
         "examples": [
-            "Podcasts/2.6",
-            "Podcast/1150.47 CFNetwork/811.5.4 Darwin/16.6.0"
+            "Podcasts/2.6"
         ]
     },
     {
@@ -1303,6 +1336,34 @@
     },
     {
         "user_agents": [
+            "^PodMN/Android"
+        ],
+        "description": "Minnesota Podcasts Live Here",
+        "examples": [
+            "PodMN/Android 1.2.6 (Android 7.1.1; SM-J510FN Build/NMF26X)"
+        ],
+        "info_url": "https://play.google.com/store/apps/details?id=com.podmn.app",
+        "app": "PodMN",
+        "device": "phone",
+        "os": "android",
+        "svg": "podmn.svg"
+    },
+    {
+        "user_agents": [
+            "^PodMN/iOS"
+        ],
+        "description": "Minnesota Podcasts Live Here",
+        "examples": [
+            "PodMN/iOS 1.2.6 (iPhone XR/13.6.1)"
+        ],
+        "info_url": "https://apps.apple.com/us/app/podmn/id1464935818",
+        "app": "PodMN",
+        "device": "phone",
+        "os": "ios",
+        "svg": "podmn.svg"
+    },
+    {
+        "user_agents": [
             "PodnewsBot"
         ],
         "app": "Podnews",
@@ -1851,5 +1912,48 @@
             "^SoundOn/[\\d\\.]+\\s+\\(bot"
         ],
         "bot": true
+    },
+    {
+      "user_agents": [
+        "^Podverse/Android Mobile App/"
+      ],
+      "app": "Podverse Android Mobile App",
+      "device": "phone",
+      "os": "android",
+      "info_url": "https://play.google.com/store/apps/details?id=com.podverse&hl=en_US",
+      "description": "Open source podcast catcher for Android, with clip-sharing, playlists, device syncing and more.",
+      "developer_notes": "The standard device user agent is concatenated to the end of the Podverse/Android Mobile App/ user agent."
+    },
+    {
+      "user_agents": [
+        "^Podverse/iOS Mobile App/"
+      ],
+      "app": "Podverse iOS Mobile App",
+      "device": "phone",
+      "os": "ios",
+      "examples": [
+        "Podverse/iOS Mobile App/Mozilla/5.0 (iPhone; CPU iPhone OS 13_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/1234"
+      ],
+      "description": "Open source podcast catcher for iOS, with clip-sharing, playlists, device syncing and more.",
+      "info_url": "https://apps.apple.com/us/app/podverse/id1390888454",
+      "developer_notes": "The standard device user agent is concatenated to the end of the Podverse/iOS Mobile App/ user agent."
+    },
+    {
+      "user_agents": [
+        "^Podverse/Feed Parser"
+      ],
+      "bot": true,
+      "app": "Podverse Server-Side Feed Parser",
+      "info_url": "https://podverse.fm",
+      "description": "The Podverse feed parser.",
+      "developer_notes": "This service parses publicly-accessible RSS feeds on a timer, then stores parsed data in the Podverse database."
+    },
+    {
+      "user_agents": [
+        "^Podcast/1."
+      ],
+      "app": "小宇宙",
+      "info_url": "https://www.coolapk.com/apk/app.podcast.cosmos",
+      "description": "Cosmos, a chinese podcast app"
     }
 ]
