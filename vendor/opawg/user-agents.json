@@ -70,6 +70,17 @@
     },
     {
         "user_agents": [
+            "^AmazonMusic(?!.iPhone|Android)"
+        ],
+        "examples": [
+            "AmazonMusic"
+        ],
+        "app": "Amazon Music Podcasts",
+        "description": "A music and podcasts streaming app",
+        "svg": "amazon.svg"
+    },
+    {
+        "user_agents": [
             "^AmazonMusic.*iPhone"
         ],
         "examples": [
@@ -149,6 +160,14 @@
         "info_url": "https://github.com/AntennaPod/AntennaPod",
         "os": "android",
         "developer_notes": "The de.danoeh version was used when streaming only, and will been phased out as of v2"
+    },
+    {
+        "user_agents": [
+            "^Anytime.+[aA]ndroid"
+        ],
+        "app": "Anytime Podcast Player",
+        "device": "phone",
+        "os": "android"
     },
     {
         "user_agents": [
@@ -389,6 +408,13 @@
         "device": "speaker"
     },
     {
+        "user_agents": [
+            "^Breaker/Android"
+        ],
+        "app": "Breaker",
+        "os": "android"
+    },
+        {
         "user_agents": [
             "^Breaker/iOS"
         ],
@@ -663,6 +689,14 @@
     },
     {
         "user_agents": [
+            "Android.+EdgA/"
+        ],
+        "app": "Microsoft Edge",
+        "os": "android",
+        "info_url": "https://play.google.com/store/apps/details?id=com.microsoft.emmx&hl=en_AU&gl=US"
+    },
+    {
+        "user_agents": [
             "Windows Phone.+Edge/"
         ],
         "app": "Edge",
@@ -811,12 +845,14 @@
     {
         "user_agents": [
             "Googlebot/",
-            "Googlebot-Video/"
+            "Googlebot-Video/",
+            "Googlebot-Image/"
         ],
         "examples": [
-            "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; http://www.google.com/bot.html)"
+            "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; http://www.google.com/bot.html)",
+            "Googlebot-Image/1.0"
         ],
-        "description": "Google's search bot",
+        "description": "Google's search bots",
         "app": "Googlebot",
         "info_url": "http://www.google.com/bot.html",
         "bot": true
@@ -832,10 +868,11 @@
         "user_agents": [
             "^Google-Speech-Actions"
         ],
-        "app": "Google Home",
+        "app": "Google Assistant",
         "device": "speaker",
-        "description": "Google Podcasts on smart speakers",
-        "os": "google_assistant"
+        "developer_notes": "This is audio downloaded as a result of a Google Assistant voice action. It's unlikely to appear in podcast host logs, since voice actions can only use up to 120 seconds of audio.",
+        "os": "google_assistant",
+        "info_url": "https://cloud.google.com/text-to-speech/docs/ssml"
     },
     {
         "user_agents": [
@@ -884,7 +921,7 @@
     },
     {
         "user_agents": [
-            "Android.*Chrome/(?!.*(Googlebot|CrKey|GSA/))"
+            "Android.*Chrome/(?!.*(Googlebot|CrKey|GSA|EdgA/))"
         ],
         "app": "Google Chrome",
         "os": "android",
@@ -1903,7 +1940,7 @@
     },
     {
         "user_agents": [
-            "iPhone.*AppleWebKit(?!.*(AdsBot|CriOS)).*Safari/"
+            "iPhone.*AppleWebKit(?!.*(AdsBot|bingbot|CriOS)).*Safari/"
         ],
         "app": "Safari",
         "device": "phone",
@@ -1952,7 +1989,7 @@
             "^Spreaker for Android"
         ],
         "app": "Spreaker",
-        "os": "Android"
+        "os": "android"
     },
     {
         "user_agents": [
@@ -2041,7 +2078,7 @@
         "examples": [
             "TuneIn Radio/24.2 (Linux;Android 10) ExoPlayerLib/2.11.4"
         ],
-        "app": "TuneIn Radio",
+        "app": "TuneIn",
         "os": "android",
         "info_url": "https://play.google.com/store/apps/details?id=tunein.player"
     },
@@ -2052,7 +2089,7 @@
         "examples": [
             "TuneIn Radio Pro/23.3.2 (Linux;Android 5.1.1) ExoPlayerLib/2.10.7"
         ],
-        "app": "TuneIn Pro",
+        "app": "TuneIn",
         "os": "android",
         "info_url": "https://play.google.com/store/apps/details?id=radiotime.player"
     },
@@ -2065,7 +2102,7 @@
             "TuneIn Radio/18.1; iPhone12,8; iOS/13.4.1",
             "TuneIn%20Radio/1383 CFNetwork/1125.2 Darwin/19.4.0"
         ],
-        "app": "TuneIn Radio",
+        "app": "TuneIn",
         "os": "ios",
         "info_url": "https://apps.apple.com/us/app/tunein-radio-live-news-music/id418987775"
     },
@@ -2077,7 +2114,7 @@
             "TuneIn Radio Pro/1361 CFNetwork/1121.2.2 Darwin/19.3.0",
             "TuneIn%20Radio%20Pro/1383 CFNetwork/1125.2 Darwin/19.4.0"
         ],
-        "app": "TuneIn Pro",
+        "app": "TuneIn",
         "os": "ios",
         "info_url": "https://apps.apple.com/us/app/tunein-pro-radio-sports/id319295332"
     },
@@ -2088,7 +2125,7 @@
         "examples": [
             "TuneIn Radio"
         ],
-        "app": "TuneIn Radio",
+        "app": "TuneIn",
         "info_url": "https://tunein.com/",
         "developer_notes": "Other versions of this app use many other user agents."
     },
@@ -2180,17 +2217,6 @@
     },
     {
         "user_agents": [
-            "^^com\\.evolve\\.podcast/"
-        ],
-        "app": "The Podcast App",
-        "device": "phone",
-        "examples": [
-            "com.evolve.podcast/3.10.1 (iPhone; ) (build 951, iOS 13.3)"
-        ],
-        "os": "ios"
-    },
-    {
-        "user_agents": [
             "^Podimo/.*iOS"
         ],
         "app": "Podimo",
@@ -2219,7 +2245,7 @@
             "adidxbot/",
             "bingbot/"
         ],
-        "app": "Microsoft Bing",
+        "app": "Microsoft Bingbot",
         "bot": true,
         "info_url": "https://www.bing.com/webmaster/help/which-crawlers-does-bing-use-8c184ec0",
         "examples": [
@@ -2238,6 +2264,18 @@
         ],
         "bot": true,
         "app": "Deezer Podcasters"
+    },
+    {
+        "user_agents": [
+            "^devcasts\/.*CFNetwork"
+        ],
+        "app": "DevCasts",
+        "os": "ios",
+        "description": "Our Devcasts app is a new kind of podcast listening app. It is simply the best way for developers to enjoy all of the excellent podcast content created for developers.",
+        "examples": [
+            "devcasts/1.0.1.00 CFNetwork/1197 Darwin/20.0.0"
+        ],
+        "info_url": "http://devcasts.co/"
     },
     {
         "user_agents": [
@@ -2412,6 +2450,114 @@
         "bot": true,
         "examples": [
             "ltx71 - (http://ltx71.com/)"
+        ]
+    },
+    {
+        "user_agents": [
+            "^bl.uk_ldfc_bot"
+        ],
+        "app": "British Library",
+        "info_url": "http://www.bl.uk/aboutus/legaldeposit/websites/websites/faqswebmaster/index.html",
+        "description": "British Library's legal deposit web crawler",
+        "bot": true,
+        "examples": [
+            "bl.uk_ldfc_bot/3.4.0-20200518 ( http://www.bl.uk/aboutus/legaldeposit/websites/websites/faqswebmaster/index.html)"
+        ]
+    },
+    {
+        "user_agents": [
+            "Archive-It;"
+        ],
+        "app": "Internet Archive",
+        "info_url": "https://archive-it.org/files/site-owners-special.html",
+        "description": "Archive-It is a web archiving service that allows institutions to build and preserve collections of born digital content saving this content for future generations.",
+        "bot": true,
+        "examples": [
+            "Mozilla/5.0 (compatible; special_archiver; Archive-It; http://archive-it.org/files/site-owners-special.html)"
+        ]
+    },
+    {
+        "user_agents": [
+            "VurblBot"
+        ],
+        "app": "Vurbl",
+        "info_url": "https://vurbl.com/about-us/",
+        "description": "An audio streaming destination",
+        "bot": true,
+        "examples": [
+            "Mozilla/5.0 https://vurbl.com VurblBot/1.0"
+        ]
+    },
+    {
+        "user_agents": [
+            "PetalBot"
+        ],
+        "app": "PetalBot",
+        "info_url": "https://aspiegel.com/petalbot",
+        "description": "PetalBot is an automatic program of the Petal search engine.",
+        "bot": true,
+        "examples": [
+            "Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot; https://aspiegel.com/petalbot)"
+        ]
+    },
+    {
+        "user_agents": [
+            "PodhoundBeta"
+        ],
+        "app": "Podhound",
+        "info_url": "http://podhound.co",
+        "description": "AI-powered podcast discovery",
+        "bot": true,
+        "examples": [
+            "PodhoundBeta"
+        ],
+        "developer_notes": "'It grabs it once to get the audio file length.', says the developer."
+    },
+    {
+        "user_agents": [
+            "hermespod.com/"
+        ],
+        "app": "HermesPod",
+        "info_url": "http://hermespod.com/",
+        "description": "HermesPod is the easiest way to subscribe, download and listen to podcasts. It's a Windows app.",
+        "examples": [
+            "hermespod.com/v1.5.x"
+        ],
+        "developer_notes": "HermesPod is no longer supported by its author."
+    },
+    {
+        "user_agents": [
+            "^gvfs/",
+            "^rhythmbox/"
+        ],
+        "app": "Rhythmbox",
+        "info_url": "https://gitlab.gnome.org/GNOME/rhythmbox",
+        "description": "Rhythmbox is your one-stop multimedia application, supporting a music library, multiple playlists, internet radio, and more.",
+        "examples": [
+            "gvfs/1.46.1"
+        ],
+        "developer_notes": "The new UA is Rhythmbox: https://gitlab.gnome.org/GNOME/rhythmbox/-/issues/1855"
+    },
+    {
+        "user_agents": [
+            "archive.org_bot"
+        ],
+        "app": "Archive.org",
+        "info_url": "https://archive.org/details/archive.org_bot",
+        "description": "The Internet Archive is a nonprofit digital library that preserves web data and makes it available for research purposes through the Wayback Machine.",
+        "bot": true,
+        "examples": [
+            "Mozilla/5.0 (compatible; archive.org_bot http://archive.org/details/archive.org_bot)"
+        ]
+    },
+    {
+        "user_agents": [
+            "AAABot"
+        ],
+        "app": "AAABot - unknown bot",
+        "bot": true,
+        "examples": [
+            "AAABot"
         ]
     }
 ]
