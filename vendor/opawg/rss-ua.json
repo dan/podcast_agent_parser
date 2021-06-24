@@ -1,0 +1,1040 @@
+[
+    {
+        "pattern": "Acast",
+        "name": "Acast",
+        "slug": "acast.com",
+        "url": "https:\/\/www.acast.com\/en"
+    },
+    {
+        "pattern": "Aggregator\/",
+        "name": "Aggregator",
+        "slug": "aggregator.tughi.github.io",
+        "url": "https:\/\/tughi.github.io\/aggregator-android\/"
+    },
+    {
+        "pattern": "AirPodcasts\/",
+        "name": "AirPodcasts-unknown",
+        "slug": "airpodcasts",
+        "url": ""
+    },
+    {
+        "pattern": "Airr Podcatcher",
+        "name": "Airr",
+        "slug": "airr.io",
+        "url": "https:\/\/www.airr.io\/"
+    },
+    {
+        "pattern": "Amazon Music Podcast",
+        "name": "Amazon Music Podcasts",
+        "slug": "amazon.com",
+        "url": "https:\/\/music.amazon.com\/podcasts\/"
+    },
+    {
+        "pattern": "AntennaPod\/",
+        "name": "AntennaPod",
+        "slug": "antennapod.org",
+        "url": "https:\/\/antennapod.org\/"
+    },
+    {
+        "pattern": "anytime_podcast_player",
+        "name": "Anytime podcast player",
+        "slug": "anytime.amugofjava.me.uk",
+        "url": "https:\/\/github.com\/amugofjava\/anytime_podcast_player"
+    },
+    {
+        "pattern": "iTunes\/",
+        "name": "Apple iTunes",
+        "slug": "itunes.apple.com",
+        "url": "https:\/\/apple.com"
+    },
+    {
+        "pattern": "itunesstored\/1.0",
+        "name": "Apple iTunes Store",
+        "slug": "store.itunes.apple.com",
+        "url": ""
+    },
+    {
+        "pattern": "Podcasts\/",
+        "name": "Apple Podcasts",
+        "slug": "podcasts.apple.com",
+        "url": "https:\/\/apple.com"
+    },
+    {
+        "pattern": "iTMS",
+        "name": "Apple Podcasts",
+        "slug": "itms.apple.com",
+        "url": "https:\/\/podcasts.apple.com\/"
+    },
+    {
+        "pattern": "Balados\/",
+        "name": "Apple Podcasts",
+        "slug": "podcasts.apple.com",
+        "url": "https:\/\/apple.com"
+    },
+    {
+        "pattern": "Balados\/",
+        "name": "Apple Podcasts",
+        "slug": "podcasts.apple.com",
+        "url": "https:\/\/apple.com"
+    },
+    {
+        "pattern": "Podcasti\/",
+        "name": "Apple Podcasts",
+        "slug": "podcasts.apple.com",
+        "url": "https:\/\/apple.com"
+    },
+    {
+        "pattern": "Podcastit\/",
+        "name": "Apple Podcasts",
+        "slug": "podcasts.apple.com",
+        "url": "https:\/\/apple.com"
+    },
+    {
+        "pattern": "Podcasturi\/",
+        "name": "Apple Podcasts",
+        "slug": "podcasts.apple.com",
+        "url": "https:\/\/apple.com"
+    },
+    {
+        "pattern": "Podcasty\/",
+        "name": "Apple Podcasts",
+        "slug": "podcasts.apple.com",
+        "url": "https:\/\/apple.com"
+    },
+    {
+        "pattern": "Podcast\u2019ler\/",
+        "name": "Apple Podcasts",
+        "slug": "podcasts.apple.com",
+        "url": "https:\/\/apple.com"
+    },
+    {
+        "pattern": "Podkaster\/",
+        "name": "Apple Podcasts",
+        "slug": "podcasts.apple.com",
+        "url": "https:\/\/apple.com"
+    },
+    {
+        "pattern": "Podcaster\/",
+        "name": "Apple Podcasts",
+        "slug": "podcasts.apple.com",
+        "url": "https:\/\/apple.com"
+    },
+    {
+        "pattern": "Podcast\/",
+        "name": "Apple Podcasts",
+        "slug": "podcasts.apple.com",
+        "url": "https:\/\/apple.com"
+    },
+    {
+        "pattern": "Podcastok\/",
+        "name": "Apple Podcasts",
+        "slug": "podcasts.apple.com",
+        "url": "https:\/\/apple.com"
+    },
+    {
+        "pattern": "\u041f\u043e\u0434\u043a\u0430\u0441\u0442\u0438\/",
+        "name": "Apple Podcasts",
+        "slug": "podcasts.apple.com",
+        "url": "https:\/\/apple.com"
+    },
+    {
+        "pattern": "\u041f\u043e\u0434\u043a\u0430\u0441\u0442\u044b\/",
+        "name": "Apple Podcasts",
+        "slug": "podcasts.apple.com",
+        "url": "https:\/\/apple.com"
+    },
+    {
+        "pattern": "\u05e4\u05d5\u05d3\u05e7\u05d0\u05e1\u05d8\u05d9\u05dd\/",
+        "name": "Apple Podcasts",
+        "slug": "podcasts.apple.com",
+        "url": "https:\/\/apple.com"
+    },
+    {
+        "pattern": "\u0627\u0644\u0628\u0648\u062f\u0643\u0627\u0633\u062a\/",
+        "name": "Apple Podcasts",
+        "slug": "podcasts.apple.com",
+        "url": "https:\/\/apple.com"
+    },
+    {
+        "pattern": "\u092a\u0949\u0921\u0915\u093e\u0938\u094d\u091f\/",
+        "name": "Apple Podcasts",
+        "slug": "podcasts.apple.com",
+        "url": "https:\/\/apple.com"
+    },
+    {
+        "pattern": "\u0e1e\u0e47\u0e2d\u0e14\u0e04\u0e32\u0e2a\u0e17\u0e4c\/",
+        "name": "Apple Podcasts",
+        "slug": "podcasts.apple.com",
+        "url": "https:\/\/apple.com"
+    },
+    {
+        "pattern": "\u64ad\u5ba2\/",
+        "name": "Apple Podcasts",
+        "slug": "podcasts.apple.com",
+        "url": "https:\/\/apple.com"
+    },
+    {
+        "pattern": "\ud31f\uce90\uc2a4\ud2b8\/",
+        "name": "Apple Podcasts",
+        "slug": "podcasts.apple.com",
+        "url": "https:\/\/apple.com"
+    },
+    {
+        "pattern": "special_archiver",
+        "name": "archive.org",
+        "slug": "archive.org",
+        "url": "http:\/\/www.archive.org\/details\/archive.org_bot"
+    },
+    {
+        "pattern": "BeyondPod",
+        "name": "BeyondPod",
+        "slug": "beyondpod.mobi",
+        "url": "http:\/\/www.beyondpod.mobi\/android\/index.htm"
+    },
+    {
+        "pattern": "bingbot\/",
+        "name": "BingBot",
+        "slug": "bing.com",
+        "url": "http:\/\/www.bing.com\/bingbot.htm"
+    },
+    {
+        "pattern": "Bitcast\/",
+        "name": "Bitcast",
+        "slug": "bitcast.fm",
+        "url": "https:\/\/bitcast.fm"
+    },
+    {
+        "pattern": "bitcastbot",
+        "name": "Bitcast",
+        "slug": "bitcast.fm",
+        "url": "https:\/\/bitcast.fm\/crawling"
+    },
+    {
+        "pattern": "RawVoice Generator\/",
+        "name": "Blubrry Podcasting",
+        "slug": "blubrry.com",
+        "url": "https:\/\/create.blubrry.com\/resources\/blubrry-podcast-directory\/"
+    },
+    {
+        "pattern": "Breaker\/",
+        "name": "Breaker",
+        "slug": "breaker.audio",
+        "url": "https:\/\/www.breaker.audio\/"
+    },
+    {
+        "pattern": "anytime.amugofjava.me.uk",
+        "name": "Breez",
+        "slug": "technology.breez",
+        "url": "https:\/\/breez.technology\/"
+    },
+    {
+        "pattern": "briefings.fm",
+        "name": "briefings.fm",
+        "slug": "briefings.fm",
+        "url": "http:\/\/briefings.fm\/"
+    },
+    {
+        "pattern": "Bullhorn Server",
+        "name": "Bullhorn",
+        "slug": "bullhorn.fm",
+        "url": "https:\/\/www.bullhorn.fm\/"
+    },
+    {
+        "pattern": "CastboxFeedParser",
+        "name": "Castbox",
+        "slug": "castbox.fm",
+        "url": "https:\/\/castbox.fm\/"
+    },
+    {
+        "pattern": "CastFeedValidator",
+        "name": "CastFeedValidator",
+        "slug": "castfeedvalidator",
+        "url": "https:\/\/castfeedvalidator.com\/"
+    },
+    {
+        "pattern": "Tentacles",
+        "name": "Castro",
+        "slug": "castro.fm",
+        "url": "https:\/\/castro.fm\/"
+    },
+    {
+        "pattern": "Mozilla\/5.0 +https:\/\/chartable.com\/crawler Trackable\/",
+        "name": "Chartable",
+        "slug": "chartable.com",
+        "url": "https:\/\/chartable.com\/crawler"
+    },
+    {
+        "pattern": "Podcast-CriticalMention\/",
+        "name": "Critical Mention",
+        "slug": "criticalmention.com",
+        "url": "https:\/\/www.criticalmention.com\/"
+    },
+    {
+        "pattern": "Deezer Podcasters\/",
+        "name": "Deezer",
+        "slug": "deezer.com",
+        "url": "https:\/\/www.deezer.com\/en\/"
+    },
+    {
+        "pattern": "DEVONthink",
+        "name": "DEVONthink",
+        "slug": "devontechnologies.com",
+        "url": "https:\/\/www.devontechnologies.com\/apps\/devonthink"
+    },
+    {
+        "pattern": "DoggCatcher",
+        "name": "DoggCatcher",
+        "slug": "doggcatcher.com",
+        "url": "http:\/\/www.doggcatcher.com\/"
+    },
+    {
+        "pattern": "Downcast\/",
+        "name": "Downcast",
+        "slug": "downcastapp.com",
+        "url": "http:\/\/www.downcastapp.com\/"
+    },
+    {
+        "pattern": "edgar",
+        "name": "Edgar",
+        "slug": "meetedgar.com",
+        "url": "https:\/\/meetedgar.com\/"
+    },
+    {
+        "pattern": "Entale bot",
+        "name": "Entale",
+        "slug": "entale.co",
+        "url": "https:\/\/www.entale.co"
+    },
+    {
+        "pattern": "Feed Wrangler\/",
+        "name": "Feed Wrangler",
+        "slug": "feedwrangler.net",
+        "url": "https:\/\/feedwrangler.net\/"
+    },
+    {
+        "pattern": "Feedbin",
+        "name": "Feedbin",
+        "slug": "feedbin.com",
+        "url": "https:\/\/feedbin.com\/"
+    },
+    {
+        "pattern": "feeder.co",
+        "name": "Feeder",
+        "slug": "feeder.co",
+        "url": "https:\/\/feeder.co\/"
+    },
+    {
+        "pattern": "Feedly",
+        "name": "Feedly",
+        "slug": "feedly.com",
+        "url": "https:\/\/feedly.com\/"
+    },
+    {
+        "pattern": "Feedspot\/",
+        "name": "Feedspot",
+        "slug": "feedspot.com",
+        "url": "https:\/\/www.feedspot.com\/"
+    },
+    {
+        "pattern": "ffydpoll",
+        "name": "Ffyd",
+        "slug": "ffyd.de",
+        "url": "https:\/\/fyyd.de\/"
+    },
+    {
+        "pattern": "FreshRSS",
+        "name": "FreshRSS",
+        "slug": "freshrss.org",
+        "url": "https:\/\/freshrss.org\/"
+    },
+    {
+        "pattern": "FYEO\/",
+        "name": "FYEO",
+        "slug": "fyeo.de",
+        "url": "https:\/\/www.fyeo.de"
+    },
+    {
+        "pattern": "fyyd\/",
+        "name": "Fyyd",
+        "slug": "fyyd.de",
+        "url": "https:\/\/fyyd.de\/"
+    },
+    {
+        "pattern": "fyyd-poll",
+        "name": "Fyyd",
+        "slug": "fyyd.de",
+        "url": "https:\/\/fyyd.de\/"
+    },
+    {
+        "pattern": "Googlebot",
+        "name": "Google Podcasts and Search",
+        "slug": "bot.google.com",
+        "url": "https:\/\/www.google.com\/bot.html"
+    },
+    {
+        "pattern": "GEfektBot\/1",
+        "name": "Govoren Efekt Bot",
+        "slug": "govorenefekt.com",
+        "url": "https:\/\/govorenefekt.com\/bot\/#english"
+    },
+    {
+        "pattern": "gPodder\/",
+        "name": "gPodder",
+        "slug": "gpodder.github.io",
+        "url": "https:\/\/gpodder.github.io\/"
+    },
+    {
+        "pattern": "hackney\/",
+        "name": "Hackney-unknown",
+        "slug": "hackney",
+        "url": ""
+    },
+    {
+        "pattern": "Headliner",
+        "name": "Headliner",
+        "slug": "headliner.app",
+        "url": "https:\/\/www.headliner.app\/"
+    },
+    {
+        "pattern": "Hypefactors",
+        "name": "Hypefactors",
+        "slug": "hypefactors.com",
+        "url": "https:\/\/app.hypefactors.com\/media-monitoring\/about.html"
+    },
+    {
+        "pattern": "Buck\/",
+        "name": "Hypefactors",
+        "slug": "hypefactors.com",
+        "url": "https:\/\/app.hypefactors.com\/media-monitoring\/about.html"
+    },
+    {
+        "pattern": "iCatcher",
+        "name": "iCatcher! Podcast Player",
+        "slug": "joeisanerd.com",
+        "url": "https:\/\/www.joeisanerd.com\/"
+    },
+    {
+        "pattern": "Mozilla\/5.0 (Linux;) AppleWebKit\/ Chrome\/ Safari",
+        "name": "iHeartRadio",
+        "slug": "iheartradio.com",
+        "url": "https:\/\/iheartradio.com"
+    },
+    {
+        "pattern": "inoreader.com",
+        "name": "Inoreader",
+        "slug": "inoreader.com",
+        "url": "https:\/\/www.inoreader.com\/"
+    },
+    {
+        "pattern": "Instacast\/",
+        "name": "Instacast",
+        "slug": "instacast",
+        "url": "https:\/\/9to5mac.com\/guides\/instacast\/"
+    },
+    {
+        "pattern": "iVoox",
+        "name": "iVoox",
+        "slug": "ivoox.com",
+        "url": "https:\/\/www.ivoox.com\/en\/"
+    },
+    {
+        "pattern": "Krzana bot",
+        "name": "Krzana",
+        "slug": "krzana.com",
+        "url": "https:\/\/krzana.com\/"
+    },
+    {
+        "pattern": "Leaf\/",
+        "name": "Leaf-unknown",
+        "slug": "leaf",
+        "url": ""
+    },
+    {
+        "pattern": "life-radio-konsole-app",
+        "name": "Life Radio Konsole App",
+        "slug": "at.liferadio",
+        "url": "https:\/\/www.liferadio.at\/life-radio-podcasts"
+    },
+    {
+        "pattern": "Liferea\/",
+        "name": "Liferea",
+        "slug": "liferea.lzone.de",
+        "url": "https:\/\/lzone.de\/liferea\/"
+    },
+    {
+        "pattern": "ListenNotes",
+        "name": "Listen Notes",
+        "slug": "listennotes.com",
+        "url": "https:\/\/www.listennotes.com\/"
+    },
+    {
+        "pattern": "Luminary\/",
+        "name": "Luminary",
+        "slug": "luminary.com",
+        "url": "https:\/\/luminarypodcasts.com\/"
+    },
+    {
+        "pattern": "Micro.blog\/",
+        "name": "Micro.blog",
+        "slug": "micro.blog",
+        "url": "https:\/\/micro.blog\/"
+    },
+    {
+        "pattern": "MissinglettrBot\/",
+        "name": "MissingLettr",
+        "slug": "missinglettr.com",
+        "url": "https:\/\/missinglettr.com\/bot\/"
+    },
+    {
+        "pattern": "MuckRackFeedParser",
+        "name": "Muck Rack",
+        "slug": "muckrack.com",
+        "url": "https:\/\/muckrack.com\/"
+    },
+    {
+        "pattern": "NetNewsWire",
+        "name": "NetNewsWire",
+        "slug": "netnewswire.com",
+        "url": "https:\/\/netnewswire.com\/"
+    },
+    {
+        "pattern": "Netvibes",
+        "name": "Netvibes",
+        "slug": "netvibes.com",
+        "url": "https:\/\/www.netvibes.com\/en"
+    },
+    {
+        "pattern": "News Explorer\/",
+        "name": "News Explorer",
+        "slug": "betamagic.nl",
+        "url": "https:\/\/betamagic.nl\/products\/newsexplorer.html"
+    },
+    {
+        "pattern": "NewsBlur Feed Fetcher",
+        "name": "NewsBlur",
+        "slug": "newsblur.com",
+        "url": "https:\/\/www.newsblur.com\/"
+    },
+    {
+        "pattern": "Newsify Feed Fetcher",
+        "name": "Newsify",
+        "slug": "newsify.co",
+        "url": "http:\/\/www.newsify.co\/"
+    },
+    {
+        "pattern": "NextCloud-News\/",
+        "name": "Nextcloud",
+        "slug": "nextcloud.com",
+        "url": "https:\/\/nextcloud.com\/"
+    },
+    {
+        "pattern": "NRCAudioBot\/",
+        "name": "NRC Audio",
+        "slug": "audio.nrc.nl",
+        "url": "https:\/\/www.nrc.nl\/audio\/"
+    },
+    {
+        "pattern": "Office 365 Connectors",
+        "name": "Office 365",
+        "slug": "microsoft.com",
+        "url": "https:\/\/microsoft.com"
+    },
+    {
+        "pattern": "Overcast\/",
+        "name": "Overcast",
+        "slug": "overcast.fm",
+        "url": "https:\/\/overcast.fm\/"
+    },
+    {
+        "pattern": "OwlTail\/",
+        "name": "OwlTail",
+        "slug": "owltail.com",
+        "url": "https:\/\/www.owltail.com\/"
+    },
+    {
+        "pattern": "PandoraRSSCrawler",
+        "name": "Pandora",
+        "slug": "pandora.com",
+        "url": "https:\/\/pandora.com"
+    },
+    {
+        "pattern": "PaperLiBot\/",
+        "name": "Paper.li",
+        "slug": "paper.li",
+        "url": "https:\/\/paper.li\/"
+    },
+    {
+        "pattern": "Playapod\/",
+        "name": "Playapod",
+        "slug": "playapod.com",
+        "url": "https:\/\/playapod.com"
+    },
+    {
+        "pattern": "PlayerFM\/1.0 Podcast Sync",
+        "name": "Player FM",
+        "slug": "player.fm",
+        "url": "https:\/\/player.fm\/"
+    },
+    {
+        "pattern": "Plex\/",
+        "name": "Plex",
+        "slug": "plex.tv",
+        "url": "https:\/\/www.plex.tv\/"
+    },
+    {
+        "pattern": "plex",
+        "name": "Plex",
+        "slug": "plex.tv",
+        "url": "https:\/\/www.plex.tv\/"
+    },
+    {
+        "pattern": "Plex Media Providers",
+        "name": "Plex",
+        "slug": "plex.tv",
+        "url": "https:\/\/www.plex.tv\/"
+    },
+    {
+        "pattern": "PocketCasts\/",
+        "name": "Pocket Casts",
+        "slug": "pocketcasts.com",
+        "url": "https:\/\/www.pocketcasts.com\/"
+    },
+    {
+        "pattern": "Swoot\/",
+        "name": "Pod Hero",
+        "slug": "podhero.com",
+        "url": "https:\/\/podhero.com\/"
+    },
+    {
+        "pattern": "Mozilla\/5.0 (compatible; Podalong\/",
+        "name": "Podalong",
+        "slug": "podalong.com",
+        "url": "https:\/\/www.podalong.com\/"
+    },
+    {
+        "pattern": "Podbay\/",
+        "name": "Podbay",
+        "slug": "podbay.fm",
+        "url": "https:\/\/podbay.fm\/about"
+    },
+    {
+        "pattern": "PodbeanFeedReader\/",
+        "name": "Podbean",
+        "slug": "podbean.com",
+        "url": "https:\/\/www.podbean.com\/podcast-app-iphone-android-mobile"
+    },
+    {
+        "pattern": "PodcastGuru",
+        "name": "Podcast Guru",
+        "slug": "podcastguru.io",
+        "url": "https:\/\/podcastguru.io\/"
+    },
+    {
+        "pattern": "Podcastindex.org\/",
+        "name": "Podcast Index",
+        "slug": "podcastindex.org",
+        "url": "https:\/\/podcastindex.org"
+    },
+    {
+        "pattern": "PodcastRepublic\/",
+        "name": "Podcast Republic",
+        "slug": "podcastrepublic.net",
+        "url": "https:\/\/www.podcastrepublic.net\/"
+    },
+    {
+        "pattern": "PodcastAddict\/",
+        "name": "PodcastAddict",
+        "slug": "podcastaddict.com",
+        "url": "https:\/\/podcastaddict.com\/"
+    },
+    {
+        "pattern": "Podcastly\/",
+        "name": "Podcastly",
+        "slug": "pdcstly.com",
+        "url": "https:\/\/pdcstly.com\/"
+    },
+    {
+        "pattern": "Podcastly\/",
+        "name": "Podcastly",
+        "slug": "pdcstly.com",
+        "url": "https:\/\/pdcstly.com\/"
+    },
+    {
+        "pattern": "Podchaser-Parser",
+        "name": "Podchaser",
+        "slug": "podchaser.com",
+        "url": "https:\/\/www.podchaser.com\/"
+    },
+    {
+        "pattern": "podCloud\/",
+        "name": "podCloud",
+        "slug": "podcloud.fr",
+        "url": "https:\/\/podcloud.fr\/"
+    },
+    {
+        "pattern": "PodCruncher",
+        "name": "PodCruncher",
+        "slug": "podcruncher.co",
+        "url": "https:\/\/podcruncher.co\/"
+    },
+    {
+        "pattern": "PodEngine\/",
+        "name": "PodEngine",
+        "slug": "podengine.com",
+        "url": "http:\/\/podengine.com"
+    },
+    {
+        "pattern": "podfollowbot\/",
+        "name": "Podfollow",
+        "slug": "podfollow.com",
+        "url": "https:\/\/podfollow.com\/crawling"
+    },
+    {
+        "pattern": "Podhero\/",
+        "name": "Podhero",
+        "slug": "podhero.com",
+        "url": "https:\/\/podhero.com\/"
+    },
+    {
+        "pattern": "PodHound\/",
+        "name": "PodHound",
+        "slug": "podhound.co",
+        "url": "https:\/\/podhound.co\/"
+    },
+    {
+        "pattern": "Podimo\/",
+        "name": "Podimo",
+        "slug": "podimo.com",
+        "url": "https:\/\/podimo.com\/en"
+    },
+    {
+        "pattern": "Podinstall",
+        "name": "Podinstall",
+        "slug": "podinstall.com",
+        "url": "https:\/\/www.podinstall.com\/"
+    },
+    {
+        "pattern": "Podkicker",
+        "name": "Podkicker",
+        "slug": "podkicker.com",
+        "url": "https:\/\/www.podkicker.com\/"
+    },
+    {
+        "pattern": "PodLink",
+        "name": "PodLink",
+        "slug": "pod.link",
+        "url": "http:\/\/pod.link\/faq\/crawler"
+    },
+    {
+        "pattern": "PodBotLP\/",
+        "name": "PodLP",
+        "slug": "podlp.com",
+        "url": "https:\/\/podlp.com"
+    },
+    {
+        "pattern": "PodMN\/",
+        "name": "PodMN",
+        "slug": "podmn.com",
+        "url": "https:\/\/podmn.com"
+    },
+    {
+        "pattern": "PodMust\/",
+        "name": "PodMust",
+        "slug": "podmust.com",
+        "url": "https:\/\/podmust.com"
+    },
+    {
+        "pattern": "Podmust\/",
+        "name": "Podmust",
+        "slug": "podmust.com",
+        "url": "https:\/\/podmust.com\/"
+    },
+    {
+        "pattern": "PodnewsBot",
+        "name": "PodnewsBot",
+        "slug": "podnews.net",
+        "url": "https:\/\/podnews.net\/bot"
+    },
+    {
+        "pattern": "PodParadise",
+        "name": "PodParadise",
+        "slug": "podparadise.com",
+        "url": "https:\/\/www.podparadise.com"
+    },
+    {
+        "pattern": "Podsights\/",
+        "name": "Podsights",
+        "slug": "podsights.com",
+        "url": "https:\/\/podsights.com\/"
+    },
+    {
+        "pattern": "Podtail\/",
+        "name": "Podtail",
+        "slug": "podtail.com",
+        "url": "https:\/\/podtail.com\/"
+    },
+    {
+        "pattern": "Mozilla\/5.0 (compatible; Podtail\/",
+        "name": "Podtail",
+        "slug": "podtail.com",
+        "url": "https:\/\/podtail.com\/"
+    },
+    {
+        "pattern": "podtail",
+        "name": "Podtail",
+        "slug": "podtail.com",
+        "url": "https:\/\/podtail.com\/en\/"
+    },
+    {
+        "pattern": "Podverse\/Feed Parser",
+        "name": "Podverse",
+        "slug": "podverse.fm",
+        "url": "https:\/\/podverse.fm\/"
+    },
+    {
+        "pattern": "Podyssey App",
+        "name": "Podyssey App",
+        "slug": "podyssey.fm",
+        "url": "https:\/\/podyssey.fm"
+    },
+    {
+        "pattern": "Radical-Edward",
+        "name": "Radical-Edward Podcast Discovery",
+        "slug": "rheo.tv",
+        "url": "https:\/\/rheo.tv\/"
+    },
+    {
+        "pattern": "axios\/0.19.1",
+        "name": "radio.com",
+        "slug": "radio.com",
+        "url": "https:\/\/www.radio.com\/"
+    },
+    {
+        "pattern": "Radioline",
+        "name": "Radioline",
+        "slug": "radioline.co",
+        "url": "https:\/\/www.radioline.co\/faq"
+    },
+    {
+        "pattern": "RadioPublic-Web\/",
+        "name": "RadioPublic",
+        "slug": "radiopublic.com",
+        "url": "https:\/\/radiopublic.com\/"
+    },
+    {
+        "pattern": "Reeder\/",
+        "name": "Reeder",
+        "slug": "reederapp.com",
+        "url": "https:\/\/reederapp.com\/"
+    },
+    {
+        "pattern": "Repod\/",
+        "name": "Repod",
+        "slug": "repod.io",
+        "url": "https:\/\/repod.io\/"
+    },
+    {
+        "pattern": "RSSOwl\/",
+        "name": "RSSOwl",
+        "slug": "rssowl.org",
+        "url": "http:\/\/www.rssowl.org\/"
+    },
+    {
+        "pattern": "RSSRadio",
+        "name": "RSSRadio",
+        "slug": "rssrad.io",
+        "url": "http:\/\/rssrad.io\/"
+    },
+    {
+        "pattern": "R6_FeedFetcher",
+        "name": "Salesforce",
+        "slug": "salesforce.com",
+        "url": "https:\/\/www.salesforce.com\/products\/marketing-cloud\/social-media-marketing\/?mc=radian6"
+    },
+    {
+        "pattern": "semantic-visions.com",
+        "name": "Semantic Visions",
+        "slug": "semantic-visions.com",
+        "url": "https:\/\/semantic-visions.com\/"
+    },
+    {
+        "pattern": "SemrushBot",
+        "name": "SEMrushBot",
+        "slug": "semrush.com",
+        "url": "https:\/\/www.semrush.com\/bot\/"
+    },
+    {
+        "pattern": "SerendeputyBot\/",
+        "name": "Serendeputy",
+        "slug": "serendeputy.com",
+        "url": "https:\/\/serendeputy.com\/"
+    },
+    {
+        "pattern": "SismicsReaderBot",
+        "name": "Sismics Reader",
+        "slug": "sismics.com",
+        "url": "https:\/\/www.sismics.com\/reader\/"
+    },
+    {
+        "pattern": "Slackbot",
+        "name": "Slackbot",
+        "slug": "slack.com",
+        "url": "https:\/\/api.slack.com\/robots"
+    },
+    {
+        "pattern": "SocialBeeAgent",
+        "name": "SocialBeeAgent",
+        "slug": "socialbee.io",
+        "url": "https:\/\/socialbee.io\/"
+    },
+    {
+        "pattern": "Sonnet\/",
+        "name": "Sonnet",
+        "slug": "sonnet.fm",
+        "url": "https:\/\/sonnet.fm\/"
+    },
+    {
+        "pattern": "Spotify\/",
+        "name": "Spotify",
+        "slug": "spotify.com",
+        "url": "https:\/\/podcasters.spotify.com"
+    },
+    {
+        "pattern": "Spreaker\/",
+        "name": "Spreaker",
+        "slug": "spreaker.com",
+        "url": "https:\/\/www.spreaker.com\/download"
+    },
+    {
+        "pattern": "StitcherBot",
+        "name": "Stitcher",
+        "slug": "stitcher.com",
+        "url": "https:\/\/www.stitcher.com\/"
+    },
+    {
+        "pattern": "Subcast\/",
+        "name": "Subcast-unknown",
+        "slug": "subcast.com",
+        "url": "http:\/\/subcast.com\/"
+    },
+    {
+        "pattern": "Superfeedr bot",
+        "name": "Superfeedr",
+        "slug": "superfeedr.com",
+        "url": "https:\/\/superfeedr.com\/"
+    },
+    {
+        "pattern": "syncify\/",
+        "name": "Syncify",
+        "slug": "syncify.fm",
+        "url": "https:\/\/syncify.fm\/"
+    },
+    {
+        "pattern": "TapTapes",
+        "name": "Taptapes",
+        "slug": "taptapes.com",
+        "url": "https:\/\/www.taptapes.com\/"
+    },
+    {
+        "pattern": "theoldreader.com",
+        "name": "The Old Reader",
+        "slug": "theoldreader.com",
+        "url": "https:\/\/theoldreader.com\/home"
+    },
+    {
+        "pattern": "tweetedtimes.com",
+        "name": "The Tweeted Times",
+        "slug": "tweetedtimes.com",
+        "url": "https:\/\/tweetedtimes.com\/"
+    },
+    {
+        "pattern": "Tiny Tiny RSS",
+        "name": "Tiny Tiny RSS",
+        "slug": "tt-rss.org",
+        "url": "https:\/\/tt-rss.org\/"
+    },
+    {
+        "pattern": "TPA\/",
+        "name": "TPA-unknown",
+        "slug": "tpa",
+        "url": ""
+    },
+    {
+        "pattern": "TuneInRssParser\/",
+        "name": "TuneIn",
+        "slug": "https:\/\/tunein.com\/",
+        "url": "com.tunein"
+    },
+    {
+        "pattern": "um-IC\/",
+        "name": "Ubermetrics",
+        "slug": "ubermetrics-technologies.com",
+        "url": "https:\/\/www.ubermetrics-technologies.com\/"
+    },
+    {
+        "pattern": "itms",
+        "name": "Unknown crawler, for testing",
+        "slug": "com.unknown.ap",
+        "url": ""
+    },
+    {
+        "pattern": "verbbot\/",
+        "name": "Verb.fm",
+        "slug": "verb.fm",
+        "url": "https:\/\/verb.fm\/crawling"
+    },
+    {
+        "pattern": "VictorReader",
+        "name": "Victor Reader",
+        "slug": "humanwear.com",
+        "url": "http:\/\/www.humanware.com\/microsite\/stream\/index.html"
+    },
+    {
+        "pattern": "Vienna\/",
+        "name": "ViennaRSS",
+        "slug": "vienna-rss.com",
+        "url": "https:\/\/www.vienna-rss.com\/"
+    },
+    {
+        "pattern": "VurblBot\/",
+        "name": "Vurbl",
+        "slug": "vurbl.com",
+        "url": "https:\/\/vurbl.com"
+    },
+    {
+        "pattern": "Winds:",
+        "name": "Winds",
+        "slug": "getstream.io",
+        "url": "https:\/\/getstream.io\/winds\/"
+    },
+    {
+        "pattern": "russ(xiaoyuzhou)\/1.0",
+        "name": "Xiao Yu Zhou",
+        "slug": "xiaoyuzhoufm.com",
+        "url": "https:\/\/www.xiaoyuzhoufm.com\/"
+    },
+    {
+        "pattern": "Russ",
+        "name": "Xiao Yu Zhou",
+        "slug": "xiaoyuzhoufm.com",
+        "url": "https:\/\/www.xiaoyuzhoufm.com\/"
+    },
+    {
+        "pattern": "YandexBot\/",
+        "name": "YandexBot",
+        "slug": "yandex.com",
+        "url": "https:\/\/yandex.com"
+    },
+    {
+        "pattern": "Zapier",
+        "name": "Zapier",
+        "slug": "zapier.com",
+        "url": "https:\/\/zapier.com"
+    },
+    {
+        "pattern": "ZoominfoBot",
+        "name": "Zoominfo",
+        "slug": "zoominfo.com",
+        "url": "https:\/\/www.zoominfo.com\/about-zoominfo\/zoominfobot"
+    }
+]
